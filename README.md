@@ -6,12 +6,15 @@ AIM : Store & Display values in different variable of different type (Integer, D
 ![Capture](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/3dc41870-7814-4fd7-b07d-8bc5c4cc0a11)
 
 AIM : Type conversion:Integer to Double, String to Integer, String to Double.
+
 ![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/c7be0700-522d-4aba-ad54-b3c904a666cf)
 
 AIM : Scan student’s information and display all the data.
+
 ![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/822ff6f6-76df-4164-95d8-ae5d4fa28fc6)
 
 AIM : Find the number is odd or even by using Control Flow inside println() method.
+
 ![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/39b8cee8-cf8e-450f-b667-07d4399cd4f4)
 
 AIM : Display month name using When.
