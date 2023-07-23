@@ -1,3 +1,33 @@
+import java.util.*
+
 fun main() {
+    println("MAD_Practicfal-1.3_21012021001")
+    var reader = Scanner(System.`in`)
+    print("enrollment no : ")
+    var a: Long = reader.nextLong()
+    print("name : ")
+    var b: String? = readLine()
+    print("Branch : ")
+    var c: String? = readLine()
+    print("Class : ")
+    var d: String? = readLine()
+    print("Batch : ")
+    var e: String? = readLine()
+    print("College : ")
+    var f: String? = readLine()
+    print("University : ")
+    var g: String? = readLine()
+    print("age : ")
+    var h: String? = readLine()
+    println("********************************")
+    println("Student's Data")
+    println("enrollment no : $a")
+    println("name : $b")
+    println("Branch : $c")
+    println("Class : $d")
+    println("Batch : $e")
+    println("College : $f")
+    println("University : $g")
+    println("age : $h")
 
 }

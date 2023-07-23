@@ -8,7 +8,7 @@ fun main(){
     var g:Long = 12345678910
     var h:Short = -1
     var i:Byte = 127
-    println("ADESHARA BRIJESH_21012021001")
+    println("MAD_Practical-1.1_21012021001")
     println("Integer value : $a ")
     println("Float value : $b ")
     println("Character value : $c ")
