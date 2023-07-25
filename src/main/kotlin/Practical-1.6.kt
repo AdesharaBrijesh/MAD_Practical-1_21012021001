@@ -1,13 +1,42 @@
-fun main()
-{
-    println("MAD_Practical-1.6_21012021001")
+import java.util.Scanner
 
-    cal(111,2222,-222)
+fun main(){
+    println("MAD_Practical-1.6_21012021001")
+    var reader = Scanner(System.`in`)
+
+    print("Enter num1 : ")
+    var num1 = reader.nextDouble()
+
+    print("Enter num2 : ")
+    var num2 = reader.nextDouble()
+
+    var sum = add(num1 , num2)
+    var x = sub(num1, num2)
+    var y = mul(num1, num2)
+    var z = div(num1, num2)
+
+
+    println("Sum is $sum")
+    println("Sub is $x")
+    println("Mul is $y")
+    println("Div is $z")
+
+
 }
-fun cal(a:Int, b:Int, c:Int)
-{
-    println("Addition of $a, $b & $c : ${a+b+c}")
-    println("Subtraction of $a, $b & $c : ${a-b-c}")
-    println("Multiplication of $a, $b & $c : ${a*b*c}")
-    println("Division of $b & $a : ${b/a}")
+
+fun add(num1 : Double , num2: Double) : Double {
+
+    return num1 + num2
+}
+
+fun mul(num1 : Double , num2: Double) : Double{
+    return num1*num2
+}
+
+fun div(num1: Double , num2: Double): Double{
+    return num1/num2
+}
+
+fun sub(num1: Double , num2: Double):Double{
+    return num1 - num2
 }
