@@ -23,7 +23,8 @@ AIM : Display month name using When.
 
 AIM : By using a user defined function perform all arithmetic operations.
 
-![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/416593f0-35d9-4521-a55e-63b5b047f0f8)
+![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/8a63040e-b47c-4fa2-b4e4-d9c26550336b)
+
 
 AIM : Find the factorial of number by recursion. Explain "tailrec" keyword.
 
