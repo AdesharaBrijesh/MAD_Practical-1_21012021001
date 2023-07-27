@@ -32,7 +32,7 @@ AIM : Find the factorial of number by recursion. Explain "tailrec" keyword.
 
 AIM : Create different types of Array as shown in image. Explore Arrays.deepToString(), contentDeepToString() methods, IntArray variable .joinToString()  and use in program to print Array. Explore range, downTo, until etc. for loop and use in this program. Sort Array of Integer data type without using inbuilt function & with using inbuilt function.
 
-![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/fdb255f6-5659-4242-bd2d-ceaf4098fb31)
+![image](https://github.com/AdesharaBrijesh/MAD_Practical-1_21012021001/assets/98079442/22db6846-efb6-41cc-a388-f44a69ef76a4)
 
 AIM : Find the max number from ArrayList.
 
