@@ -1,8 +1,7 @@
 fun main(){
     println("MAD_Practical-1.8_21012021001")
-
     println("Array created by using arrayof() method")
-    var a1 = arrayOf(13,33,25,43,38)
+    var a1 = arrayOf(23,43,5,63,8)
     println(a1.contentToString())
 
     println("Array created by using Array<>  method")
@@ -18,11 +17,11 @@ fun main(){
     println(a4.joinToString (", "))
 
     println("Array created using IntArrayOf()")
-    var a5 = intArrayOf(12,24,36,47,52)
+    var a5 = intArrayOf(12,54,64,67,2)
     println(a5.joinToString(", "))
 
     println("Array created by using arrayof() and intArrayOf()")
-    var a6 = arrayOf(intArrayOf(5,3), intArrayOf(4,1), intArrayOf(6,2))
+    var a6 = arrayOf(intArrayOf(45,3), intArrayOf(4,1), intArrayOf(9,2))
     println(a6.contentDeepToString())
 
     print("Enter number of Elements : ")
@@ -38,4 +37,26 @@ fun main(){
     print("Entered Array = ")
     println(user.contentToString())
 
+    println("========================== With In-Built Function ==========================")
+    println("Array Sorted by in-built Function =  ")
+    user.sort()
+    println(user.contentToString())
+
+    val a7 = intArrayOf(45,96,689,593,-45,-76,-453,-56)
+    println("========================== Without In-Built Function ==========================")
+    println("Array Sorted without in-built Function = ")
+    println(user.contentToString())
+
+    var temp: Int
+    for (i in a7.indices) {
+        for (j in a7.indices) {
+            if (a7[j] > a7[i]) {
+                temp = a7[j]
+                a7[j] = a7[i]
+                a7[i] = temp
+            }
+        }
+    }
+    println("Array Sorted without in-built Function = ")
+    println(a7.contentToString())
 }
